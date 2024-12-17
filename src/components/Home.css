@@ -1,0 +1,39 @@
+.home-container{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #ccc; 
+
+}
+
+.home-title{
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.home-description{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.home-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.home-items{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
